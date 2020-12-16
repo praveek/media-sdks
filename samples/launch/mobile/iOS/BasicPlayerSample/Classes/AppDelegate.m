@@ -24,6 +24,7 @@
 #import <ACPIdentity.h>
 #import <ACPAnalytics.h>
 #import <ACPMedia.h>
+#import <AEPAssurance.h>
 
 
 @implementation AppDelegate
@@ -45,10 +46,16 @@
     [ACPIdentity registerExtension];
     [ACPAnalytics registerExtension];
     [ACPMedia registerExtension];
+    [AEPAssurance registerExtension];
     
     [ACPCore start:^{
         [ACPCore lifecycleStart:nil];
     }];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
+    [AEPAssurance startSession:url];
     return YES;
 }
 

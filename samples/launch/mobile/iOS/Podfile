@@ -6,4 +6,5 @@ target 'BasicPlayerSample' do
   pod 'ACPCore'
   pod 'ACPAnalytics'
   pod 'ACPMedia'
+  pod 'AEPAssurance'
 end

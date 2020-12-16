@@ -20,6 +20,7 @@
 		3A50C0951C615D4200288017 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A50C0941C615D4200288017 /* CoreMedia.framework */; };
 		3A50C09C1C615D5E00288017 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A50C0991C615D5E00288017 /* InfoPlist.strings */; };
 		3A50C09E1C615D5E00288017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A50C09B1C615D5E00288017 /* Images.xcassets */; };
+		69E355CBA71E8DE9E1BA18BE /* libPods-BasicPlayerSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB2FAE969A26F72B732C8D6 /* libPods-BasicPlayerSample.a */; };
 		C9606AEC18D9E22B00A8F275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9606AEB18D9E22B00A8F275 /* Foundation.framework */; };
 		C9606AEE18D9E22B00A8F275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9606AED18D9E22B00A8F275 /* CoreGraphics.framework */; };
 		C9606AF018D9E22B00A8F275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9606AEF18D9E22B00A8F275 /* UIKit.framework */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AA803F301B24B6B1F8941B7 /* Pods-BasicPlayerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicPlayerSample.release.xcconfig"; path = "Target Support Files/Pods-BasicPlayerSample/Pods-BasicPlayerSample.release.xcconfig"; sourceTree = "<group>"; };
 		2155C61120F7F45900367FA8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2155C61320F7F46500367FA8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2155C61520F7F47000367FA8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
@@ -48,6 +50,7 @@
 		3A50C0941C615D4200288017 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3A50C09A1C615D5E00288017 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A50C09B1C615D5E00288017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CB2FAE969A26F72B732C8D6 /* libPods-BasicPlayerSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicPlayerSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9606AE818D9E22B00A8F275 /* BasicPlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicPlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9606AEB18D9E22B00A8F275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9606AED18D9E22B00A8F275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +62,7 @@
 		C9606B3418D9E6EE00A8F275 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C9606B3618D9E6FF00A8F275 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CD87105B2336D338009A117B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "BasicPlayerSample/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4A9B40E2880FB89D8B753F7 /* Pods-BasicPlayerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicPlayerSample.debug.xcconfig"; path = "Target Support Files/Pods-BasicPlayerSample/Pods-BasicPlayerSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				C9606AEE18D9E22B00A8F275 /* CoreGraphics.framework in Frameworks */,
 				C9606AF018D9E22B00A8F275 /* UIKit.framework in Frameworks */,
 				C9606AEC18D9E22B00A8F275 /* Foundation.framework in Frameworks */,
+				69E355CBA71E8DE9E1BA18BE /* libPods-BasicPlayerSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +139,7 @@
 				3A50C0981C615D5E00288017 /* Resources */,
 				C9606AEA18D9E22B00A8F275 /* Frameworks */,
 				C9606AE918D9E22B00A8F275 /* Products */,
+				CD10BEE032B6D1FF7D30990D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +167,7 @@
 				C9606AEB18D9E22B00A8F275 /* Foundation.framework */,
 				C9606AED18D9E22B00A8F275 /* CoreGraphics.framework */,
 				C9606AEF18D9E22B00A8F275 /* UIKit.framework */,
+				5CB2FAE969A26F72B732C8D6 /* libPods-BasicPlayerSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +191,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CD10BEE032B6D1FF7D30990D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4A9B40E2880FB89D8B753F7 /* Pods-BasicPlayerSample.debug.xcconfig */,
+				0AA803F301B24B6B1F8941B7 /* Pods-BasicPlayerSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9606B1D18D9E22B00A8F275 /* Build configuration list for PBXNativeTarget "BasicPlayerSample" */;
 			buildPhases = (
+				601FE6D63FE2C8D230390380 /* [CP] Check Pods Manifest.lock */,
 				C9606AE418D9E22B00A8F275 /* Sources */,
 				C9606AE518D9E22B00A8F275 /* Frameworks */,
 				C9606AE618D9E22B00A8F275 /* Resources */,
@@ -244,6 +261,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		601FE6D63FE2C8D230390380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasicPlayerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9606AE418D9E22B00A8F275 /* Sources */ = {
@@ -353,6 +395,7 @@
 		};
 		C9606B1E18D9E22B00A8F275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A9B40E2880FB89D8B753F7 /* Pods-BasicPlayerSample.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -389,6 +432,7 @@
 		};
 		C9606B1F18D9E22B00A8F275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA803F301B24B6B1F8941B7 /* Pods-BasicPlayerSample.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
