@@ -5,6 +5,14 @@ Included are notes from the latest major revision to current.
 For full documentation please visit:
 https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/download-sdks.html
 
+## 2.2.5 (5 May, 2021)
+What's new :
+- Added fix to generate correct Roku OS version string for OS version 10 and above.
+
+## 2.2.4 (13 January, 2021)
+What's new :
+- Added fix for duplicate Session ID.
+
 ## 2.2.3 (16 December, 2019)
 What's new :
 - Bug fixes to improve stability and SDK performance.
